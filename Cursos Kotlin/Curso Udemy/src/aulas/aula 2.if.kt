@@ -1,4 +1,4 @@
-fun MaiorDeIdade(idade: Int) {
+fun maiorDeIdade(idade: Int) {
     if (idade >= 18) {
         println("Maior de idade")
     } else {
@@ -7,7 +7,7 @@ fun MaiorDeIdade(idade: Int) {
 }
 
 
-fun CalculaSalario(cargo: String, salario: Float): Float {
+fun calculaSalario(cargo: String, salario: Float): Float {
 
     val bonus: Float
 
@@ -37,13 +37,13 @@ fun CalculaSalario(cargo: String, salario: Float): Float {
 
 
 fun main() {
-    MaiorDeIdade(10)
-    MaiorDeIdade(18)
-    MaiorDeIdade(40)
+    maiorDeIdade(10)
+    maiorDeIdade(18)
+    maiorDeIdade(40)
 
-    println(CalculaSalario("professor", 1000f))
-    println(CalculaSalario("Gerente Junior", 1000f))
-    println(CalculaSalario("Cordenador", 1000f))
+    println(calculaSalario("professor", 1000f))
+    println(calculaSalario("Gerente Junior", 1000f))
+    println(calculaSalario("Cordenador", 1000f))
 
     val valor = 10
     val resposta: String = if (valor == 10) "sim" else "não"

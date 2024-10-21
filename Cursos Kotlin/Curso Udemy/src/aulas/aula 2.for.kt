@@ -10,6 +10,8 @@ fun main() {
             println("$i ")
         }
     }
-
+    for(j in 30 downTo 0) {
+        println("$j")
+    }
 }
 
